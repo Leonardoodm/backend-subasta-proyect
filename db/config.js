@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize');
 
 
 // Configura la conexión a la base de datos
-const sequelize = new Sequelize('sneakers', 'root', '', {
+const sequelize = new Sequelize('dbName', 'User', 'Password', {
     host: 'localhost',
     dialect: 'mysql' // Cambia esto según el tipo de base de datos que estés utilizando
 });
